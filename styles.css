@@ -1,0 +1,81 @@
+/* Định dạng nền gradient huyền ảo */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 20px;
+}
+
+/* Hộp chứa có hiệu ứng bóng đổ 3D */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    width: 90%;
+    max-width: 400px;
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #66fcf1;
+}
+
+h3 {
+    color: #f8e71c;
+    margin-top: 15px;
+}
+
+/* Định dạng input, button, select */
+input, select, button {
+    margin: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease;
+}
+
+input, select {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    background: #66fcf1;
+    color: #0b0c10;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+/* Hiệu ứng hover nút bấm */
+button:hover {
+    background: #45a29e;
+    transform: scale(1.05);
+    border: 1px solid white;
+}
+
+/* Kết quả hiển thị nổi bật */
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
