@@ -54,10 +54,9 @@ git clone https://github.com/YOUR-USERNAME/electronic-calculator.git
 2️⃣ Mở file `index.html` trong trình duyệt.  
 3️⃣ Nhập thông tin và thực hiện các phép tính.  
 
-### 🌍 **2. Chạy trên GitHub Pages**  
-Nếu bạn đã triển khai trên GitHub Pages, chỉ cần truy cập:  
-👉 **https://your-username.github.io/electronic-calculator/**  
-
+### 🌍 **2. Chạy trên Google Site**  
+Nếu bạn muốn sử dụng có thể truy cập:  
+https://sites.google.com/view/mycodinz/t%C3%ADnh-%C4%91i%E1%BB%87n-t%E1%BB%AD
 ---
 
 ## 🎯 **Đóng góp & Cải tiến**  
